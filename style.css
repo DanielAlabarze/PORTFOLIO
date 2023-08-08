@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Satisfy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-item span {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+span:hover {
+  transition: all 0.1s ease-in;
+  color: rgb(214, 169, 240);
+}
+
+.navbar {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: rgb(92, 3, 87);
+  color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+button.navbar-toggler {
+  background-color: rgb(220, 230, 222);
+}
+
+.alabarze {
+  text-decoration: none;
+  color: white;
+  font-family: "Belanosima", sans-serif;
+  font-family: "Satisfy", cursive;
+  font-size: 2rem;
+}
+
+.danielAlabarze {
+  font-family: "Belanosima", sans-serif;
+  font-family: "Satisfy", cursive;
+  font-size: 4rem;
+  color: rgb(220, 230, 222);
+}
+
+header {
+  width: 100%;
+  background: rgb(199, 108, 226);
+  background: radial-gradient(
+    circle,
+    rgba(199, 108, 226, 1) 0%,
+    rgba(85, 10, 110, 1) 100%
+  );
+  padding: 4.5rem 0 1rem;
+  align-items: center;
+}
+header img {
+  width: 20rem;
+}
+
+header h2 {
+  font-size: 3rem;
+  color: rgb(236, 170, 245);
+}
+
+header .divisor {
+  color: rgb(220, 230, 222);
+}
+
+header p {
+  font-size: 1.5rem;
+  color: rgb(220, 230, 222);
+}
+
+.cajas {
+  width: 100%;
+  background-color: rgb(220, 230, 222);
+  padding: 1rem 0;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.cajas img {
+  width: 100%;
+  background-color: white;
+  padding: 0.1rem;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.cajas h2 {
+  font-size: 1.5rem;
+  color: rgb(92, 3, 87);
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay .iconos-contenedor {
+  display: flex;
+}
+
+.overlay i {
+  color: rgb(93, 8, 110);
+  font-size: 8rem;
+  margin: 10px;
+}
+
+.proyecto {
+  position: relative;
+}
+
+.proyecto:hover img {
+  opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+  opacity: 1;
+}
+
+.divisor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 40%;
+  color: rgb(220, 230, 222);
+}
+
+.linea {
+  border: 3px solid rgb(220, 230, 222);
+  width: 40%;
+  height: 5px;
+  margin: 0 1rem 0;
+}
+
+.divisor1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 40%;
+  color: rgb(93, 8, 110);
+}
+
+.linea1 {
+  border: 3px solid rgb(93, 8, 110);
+  width: 40%;
+  height: 5px;
+  margin: 0 1rem 0;
+}
+
+i {
+  font-size: 2rem;
+}
+
+h2 {
+  color: rgb(93, 8, 110);
+}
+
+.sobreMi h2 {
+  color: rgb(220, 230, 222);
+}
+
+.tituloPortfolio {
+  background-color: rgb(220, 230, 222);
+  padding: 1rem 0;
+}
+
+.sobreMi {
+  width: 100%;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.p {
+  text-align: justify;
+  padding: 1rem;
+  color: rgb(220, 230, 222);
+}
+
+.contacto {
+  width: 100%;
+  background-color: rgb(220, 230, 222);
+  color: white;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contactame {
+  color: rgb(93, 8, 110);
+}
+
+#contacto button {
+  margin: 1rem auto;
+  padding: 19px 39px 18px 39px;
+  color: #fff;
+  background-color: rgb(92, 3, 87);
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 20px;
+  width: 15rem;
+  border: 1px solid rgb(35, 14, 59);
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+}
+
+#contacto button:hover {
+  background-color: rgb(35, 14, 59);
+  color: #3cff0b;
+  transition: all 0.1s ease-in;
+}
+
+.formularioContacto {
+  width: 38rem;
+  padding: 0.25rem;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(220, 230, 222);
+}
+
+form {
+  margin: 0 auto;
+  padding: 15px 20px;
+  background: rgb(220, 230, 222);
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  background: rgba(255, 255, 255, 0.1);
+  border: solid 2px rgba(255, 255, 255, 0.1);
+  font-size: 0.85rem;
+  height: auto;
+  margin: 0;
+  padding: 0.8rem;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 1px;
+}
+
+footer {
+  width: 100%;
+  background-color: rgb(93, 8, 110);
+  color: white;
+  padding: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.Copyright {
+  background-color: rgb(35, 14, 59);
+  text-align: center;
+  padding: 1rem;
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .container-fluid {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logoNavbar {
+    width: 100%;
+    padding: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .linea {
+    margin: 0.3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .formularioContacto {
+    width: 31rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .formularioContacto {
+    width: 320px;
+  }
+}
+
+@media (min-width: 700px) {
+  .logoNavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 395px) {
+  .btn {
+    margin: 0.7rem;
+  }
+
+  header p {
+    text-align: center;
+  }
+
+  #pFooter {
+   text-align: center;
+   padding: 0;
+  }
+}
