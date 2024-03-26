@@ -86,7 +86,6 @@ header p {
   padding: 1rem 0;
   display: block;
   transition: all 0.2s ease;
-  
 }
 
 .cajas img {
@@ -193,6 +192,16 @@ h2 {
   padding: 1rem;
 }
 
+.conocimientos {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.lenguajes {
+  justify-content: center;
+}
+
 .p {
   text-align: justify;
   padding: 1rem;
@@ -268,30 +277,29 @@ label {
   margin-bottom: 1px;
 }
 
-footer {
+.footer {
   width: 100%;
+
+  justify-content: space-around;
+  text-align: center;
+
   background-color: rgb(93, 8, 110);
   color: white;
-  padding: 3rem;
-  align-items: center;
-  justify-content: center;
+  padding: 2rem;
 }
 
 .img-icono {
-  width: 3rem;
-  margin: 0.4rem;
-
+  width: 4rem;
+  margin: 1rem;
 }
 
 .iconHTML5 {
-  width: 3.7rem;
-  }
+  width: 5rem;
+}
 
-  .iconCSS3 {
-    width: 3.7rem;
-    }
-  
-
+.iconCSS3 {
+  width: 5rem;
+}
 
 .Copyright {
   background-color: rgb(35, 14, 59);
@@ -356,7 +364,7 @@ footer {
     font-size: 2.7rem;
     color: rgb(220, 230, 222);
   }
-  
+
   header p {
     font-size: 1.2rem;
     color: rgb(220, 230, 222);
@@ -369,23 +377,56 @@ footer {
     padding: 0.1rem;
     color: rgb(220, 230, 222);
   }
-  
+
+  .cajas img {
+    width: 90%;
+    margin: 1rem;
+    text-align: center;
+    background-color: white;
+
+    transition: all 0.2s ease;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+  }
+
+  .cajas h2 {
+    margin-top: -0.8rem;
+    font-size: 1.2rem;
+    color: rgb(92, 3, 87);
+  }
+
+  #contacto button {
+    display: flex;
+
+    color: #fff;
+    font-size: 1rem;
+    background-color: rgb(92, 3, 87);
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+    width: 8rem;
+    height: 3rem;
+    border: 1px solid rgb(35, 14, 59);
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  }
+
   #pFooter {
     text-align: center;
     padding: 0;
   }
 
   .img-icono {
-    width: 3rem;
+    width: 2rem;
     margin: 0.5rem;
-  
   }
-  
+
   .iconHTML5 {
-    width: 3.7rem;
-    }
-  
-    .iconCSS3 {
-      width: 3.7rem;
-      }
+    width: 2.7rem;
+  }
+
+  .iconCSS3 {
+    width: 2.7rem;
+  }
 }
