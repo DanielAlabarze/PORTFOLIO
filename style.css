@@ -184,12 +184,11 @@ h2 {
 
 .tituloPortfolio {
   background-color: rgb(220, 230, 222);
-
 }
 
 .sobreMi {
   width: 100%;
-  background-color: blueviolet;
+  background-color: rgb(35, 14, 59);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -200,9 +199,8 @@ h2 {
 
 .conocimientos {
   text-align: center;
-  font-weight: bold;
-  color: white;
 
+  color: white;
 }
 
 .lenguajes {
@@ -284,12 +282,18 @@ label {
   margin-bottom: 1px;
 }
 
+.logosSociales {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5rem 0;
+}
+
 .footer {
- display: flex;
+  display: flex;
 
   justify-content: space-around;
   text-align: center;
-align-items: center;
+  align-items: center;
   background-color: rgb(93, 8, 110);
   color: white;
   padding: 2rem;
@@ -379,7 +383,7 @@ align-items: center;
   }
 
   .p {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     text-align: justify;
     padding: 0.5rem;
     color: rgb(220, 230, 222);
@@ -422,14 +426,11 @@ align-items: center;
 
   .footer {
     display: block;
-   
-     text-align: center;
-   align-items: center;
-     background-color: rgb(93, 8, 110);
-     color: white;
-    
-   }
-  
+    text-align: center;
+    align-items: center;
+    background-color: rgb(93, 8, 110);
+    color: white;
+  }
 
   .img-icono {
     width: 2rem;
@@ -442,5 +443,9 @@ align-items: center;
 
   .iconCSS3 {
     width: 2.7rem;
+  }
+
+  .logosSociales {
+    margin: 0 0.5rem 0;
   }
 }
