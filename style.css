@@ -304,14 +304,6 @@ label {
   margin: 1rem;
 }
 
-.iconHTML5 {
-  width: 5rem;
-}
-
-.iconCSS3 {
-  width: 5rem;
-}
-
 .Copyright {
   background-color: rgb(35, 14, 59);
   text-align: center;
@@ -433,16 +425,8 @@ label {
   }
 
   .img-icono {
-    width: 2rem;
-    margin: 0.5rem;
-  }
-
-  .iconHTML5 {
-    width: 2.7rem;
-  }
-
-  .iconCSS3 {
-    width: 2.7rem;
+    width: 2.1rem;
+    margin: 0.3rem;
   }
 
   .logosSociales {
