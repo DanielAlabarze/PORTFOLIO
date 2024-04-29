@@ -343,16 +343,25 @@ label {
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 780px) {
   .logoNavbar {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
+
+  header img {
+    width: 12rem;
+  }
+
+  .img-icono {
+    width: 3rem;
+    margin: 0.8rem;
+  }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .btn {
     margin: 0.7rem;
   }
@@ -425,8 +434,8 @@ label {
   }
 
   .img-icono {
-    width: 2.1rem;
-    margin: 0.3rem;
+    width: 1.8rem;
+    margin: 0.1rem;
   }
 
   .logosSociales {
