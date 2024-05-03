@@ -53,6 +53,7 @@ button.navbar-toggler {
 
 header {
   width: 100%;
+  margin-top: auto;
   background: rgb(199, 108, 226);
   background: radial-gradient(
     circle,
@@ -340,9 +341,10 @@ label {
     margin: 0.5rem;
   }
 
+  header img {
+    width: 12rem;
+  }
 }
-
-
 
 @media (min-width: 780px) {
   .logoNavbar {
@@ -409,11 +411,9 @@ label {
     color: rgb(92, 3, 87);
   }
 
- 
-    .formularioContacto {
-      width: 320px;
-    }
-
+  .formularioContacto {
+    width: 320px;
+  }
 
   #contacto button {
     display: flex;
