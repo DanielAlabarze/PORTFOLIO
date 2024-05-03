@@ -331,17 +331,18 @@ label {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 779px) {
   .formularioContacto {
     width: 31rem;
   }
+  .img-icono {
+    width: 2rem;
+    margin: 0.5rem;
+  }
+
 }
 
-@media (max-width: 500px) {
-  .formularioContacto {
-    width: 320px;
-  }
-}
+
 
 @media (min-width: 780px) {
   .logoNavbar {
@@ -408,6 +409,12 @@ label {
     color: rgb(92, 3, 87);
   }
 
+ 
+    .formularioContacto {
+      width: 320px;
+    }
+
+
   #contacto button {
     display: flex;
 
@@ -434,7 +441,7 @@ label {
   }
 
   .img-icono {
-    width: 1.8rem;
+    width: 2rem;
     margin: 0.1rem;
   }
 
