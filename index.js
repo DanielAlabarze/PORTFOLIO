@@ -3,7 +3,7 @@ const bsCollapse = new bootstrap.Collapse("#navbarNav", {
 });
 
 document.addEventListener("click", (e) => {
-  if (!e.target.matches(".navbar a")) return false;
+  if (!e.target.matches(".navbar a span")) return false;
 
   bsCollapse.hide();
 });
